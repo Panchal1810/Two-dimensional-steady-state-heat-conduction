@@ -1,5 +1,5 @@
 # Two-dimensional-steady-state-heat-conduction
-The study aims to solve the two-dimensional steady heat conduction over the simple rectangular domain with Length (L) and height (H) using Finite Volume Method. The problem is solved using C++ language and it is executed by simpliy running the script. 
+The study aims to solve the two-dimensional steady heat conduction over the simple rectangular domain with Length (L) and height (H) using Finite Volume Method. The problem is solved using C++ language and it is wokred on uniform and non-uniform grid. These grid generation can be switched it on using SET_GEOMETRY_UNIFORM and SET_GEOMETRY_NONUNIFORM function. Here, results are presented with respective to uniform grid as a reference. 
 
 
 The boundary conditions of the domain are as follows:
