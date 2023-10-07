@@ -522,7 +522,7 @@ int FILE_WRITE1(){  // how to write the data in the file ...
 		 qy[j][i] = -ky[j][i]*(T[j+1][i] - T[j][i])/(Y_NODE[j+1][i] - Y_NODE[j][i]);	
 	    }
     }
-	
+	/*
 	//grid lines
 	ofstream file4("grid_data_42_22.dat");
     file4<<"VARIABLES = "<<'"'<<"X"<<'"'<<", "<<'"'<<"Y"<<'"'<<endl;
@@ -536,7 +536,8 @@ int FILE_WRITE1(){  // how to write the data in the file ...
 			}
 		}
 			file4.close();
-
+        */
+	
     //temperature values at CV and heat flux (face values)
 	ofstream writer("structural_grid_42_22.dat");
 	if (!writer){
